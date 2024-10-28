@@ -60,6 +60,7 @@ def mmli() {
 }
 
 // Generate table name, with parent if it is available
+TABLE_NAME = ""
 if (TABLE != null) {
 	TABLE_PARENT = TABLE.getParent().getName()
 	if (TABLE_PARENT != null && TABLE_PARENT != "") {
